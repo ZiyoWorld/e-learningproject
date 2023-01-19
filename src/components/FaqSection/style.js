@@ -1,18 +1,27 @@
 import styled from "styled-components";
 
 export const Container = styled('div')`
-display: flex;
+display: block;
 justify-content: space-around;
 align-items: center;
 padding: 5rem 10rem;
-flex-direction: row-reverse;
 `;
 export const Description = styled.div`
 flex: 1;
 padding-left: 5rem;
 h2{
-    color: #30bee1;
-    padding-bottom: 1rem;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+.questions{
+    padding: 3rem 0;
+    cursor: pointer;
+}
+.answer{
+    padding: 2rem 0;
+    p{
+        padding: 1rem 0;
+    }
 }
 h3{
      font-size: 1.4rem;

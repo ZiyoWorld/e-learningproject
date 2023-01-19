@@ -16,11 +16,11 @@ button{
     cursor: pointer;
     background-color: transparent;
     padding: 1rem 2rem;
-    border: 3px solid #ffe45c;
+    border: 3px solid #30BEE1;
     color: #fff;
     transition: all 0.25s linear;
     &:hover{
-        background-color: #ffe45c;
+        background-color: #30BEE1;
         color: #2a2e35;
     }
 }
@@ -33,20 +33,26 @@ h3{
 }
 h4{
     font-weight: bold;
+    font-size:2rem;
 }
 span{
-    color: #ffe45c;
+    color: #30BEE1;
     font-weight: bold;
 }
 a{
     font-size: 1.1rem;
 }
 p{
-    padding: 3rem 1rem;
+    padding: 1rem 1rem;
     color: #ccc;
     font-size: 1.4rem;
     line-height: 150%;
 }
-
+.faq-line{
+    height: 0.2rem;
+    background-color: #ccc;
+    width: 100%;
+    margin: 2rem 0;
+}
 
 `
