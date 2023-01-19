@@ -1,9 +1,11 @@
 import React from 'react'
-import Home from '../components/Home'
+import Pages from '../pages';
+import { GlobalStyle } from '../components/Globalstyles';
 const Root = () => {
   return (
-      <div>
-          <Home />
+    <div>
+          <GlobalStyle />
+          <Pages />
     </div>
   )
 }
